@@ -1,0 +1,11 @@
+nest g co modules/users/controller/users --flat
+nest g mo modules/users/module/users --flat
+nest g s modules/users/service/users --flat
+
+"id": "1",
+    "name": "Diego",
+    "secondName": "Miguel",
+    "lastname": "González",
+    "secondLastname": "Calero",
+    "email": "diegom.gcalovi@gmail.com",
+    "password": "123456",
