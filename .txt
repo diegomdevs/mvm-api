@@ -1,11 +1,24 @@
-nest g co modules/users/controller/users --flat
-nest g mo modules/users/module/users --flat
-nest g s modules/users/service/users --flat
+nest g co modules/parents/controller/parents --flat
+nest g mo modules/parents/module/parents --flat
+nest g s modules/parents/service/parents --flat
 
-"id": "1",
+user:
+    "id": "1",
     "name": "Diego",
     "secondName": "Miguel",
     "lastname": "González",
     "secondLastname": "Calero",
     "email": "diegom.gcalovi@gmail.com",
     "password": "123456",
+student:
+    "id": "1",
+    "name": "Diego",
+    "secondName": "Miguel",
+    "lastname": "González",
+    "secondLastname": "Calero",
+    "birthday": "2005-01-04T04:00:00.000Z",
+    "birthplace": "Valecia",
+    "municipality": "Valecia",
+    "state": "Carabobo",
+    "liveWith": "Mamá",
+    "ci": "30807618"
