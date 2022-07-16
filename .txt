@@ -1,6 +1,6 @@
-nest g co modules/parents/controller/parents --flat
-nest g mo modules/parents/module/parents --flat
-nest g s modules/parents/service/parents --flat
+nest g co modules/representatives/controller/representatives --flat
+nest g mo modules/representatives/module/representatives --flat
+nest g s modules/representatives/service/representatives --flat
 
 user:
     "id": "1",
@@ -22,3 +22,16 @@ student:
     "state": "Carabobo",
     "liveWith": "Mamá",
     "ci": "30807618"
+parents:
+    "id": "1",
+    "name": "José",
+    "secondName": "Luis",
+    "lastname": "Gallado",
+    "secondLastname": "Pérez",
+    "ci": "25648965",
+    "degreeOfInstruction": "SUP",
+    "direction": "AV BOLIVAR VALENCIA CASA 58",
+    "phone": "0424-584-88-69",
+    "isAlive": true,
+    "sex": "M",
+    "work": "ING"

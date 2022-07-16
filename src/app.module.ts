@@ -10,8 +10,9 @@ import { StudentsModule } from './modules/students/module/students.module';
 import { CreateClientDto } from './dto/client.dto';
 import { ParentsModule } from './modules/parents/module/parents.module';
 import { CreateAdultDto } from './dto/adult.dto';
+import { RepresentativesModule } from './modules/representatives/module/representatives.module';
 @Module({
-  imports: [UsersModule, StudentsModule, ParentsModule],
+  imports: [UsersModule, StudentsModule, ParentsModule, RepresentativesModule],
   controllers: [AppController],
   providers: [
     AppService,
