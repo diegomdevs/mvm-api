@@ -1,6 +1,7 @@
 import { IsString, IsNotEmpty } from 'class-validator';
 import { PartialType } from '@nestjs/mapped-types';
-export class CreatePersonDto {
+import Person from 'src/entities/person.entity';
+export class CreatePersonDto extends Person {
   @IsString()
   @IsNotEmpty()
   readonly id: string;
